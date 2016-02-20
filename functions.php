@@ -5,8 +5,8 @@
 /*-----------------------------------------------------------------------------------*/
 
 // Set path to WooFramework and theme specific functions
-$functions_path = TEMPLATEPATH . '/functions/';
-$includes_path = TEMPLATEPATH . '/includes/';
+$functions_path = dirname(__FILE__) . '/functions/';
+$includes_path = dirname(__FILE__) . '/includes/';
 
 // WooFramework
 require_once ($functions_path . 'admin-init.php');			// Framework Init
